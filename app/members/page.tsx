@@ -16,8 +16,8 @@ export default function MembersPage() {
         url: "https://scholar.google.com/citations?hl=en&tzom=300&user=uoqM6JEAAAAJ&inst=17395704991083290304",
       },
       {
-        label: "CV (July 2025)",
-        url: "/images/Junghun_Cho_CV_0707_2025.pdf",
+        label: "CV (Nov 2025)",
+        url: "/images/Junghun_Cho_CV_1107_2025.pdf",
       },
     ],
   }
@@ -56,6 +56,26 @@ export default function MembersPage() {
       image: "/images/members/tianqiu.jpg",
       description:
         "Tian Qiu received a BS in Biomedical Engineering at Huazhong University of Science & Technology. His research project involves developing data processing for OEF quantification.",
+      links: [],
+      useContain: false,
+    },
+
+    {
+      name: "Jonathan Kang",
+      title: "Undergraduate student",
+      image: "/images/members/jonathan.jpg",
+      description:
+        "Jonathan is an undergraduate student in Biomedical Engineering at George Washington University. His research project involves developing image segmentation algorithms.",
+      links: [],
+      useContain: false,
+    },
+
+    {
+      name: "Selah Koleth",
+      title: "Undergraduate student",
+      image: "/images/members/selah.jpeg",
+      description:
+        "Selah is an undergraduate student in Biomedical Engineering at George Washington University. Her research project involves clinical application of OEF",
       links: [],
       useContain: false,
     },
