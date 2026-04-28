@@ -10,31 +10,81 @@ export default function PublicationsPage() {
 
   const publications = [
     {
+      year: 2026,
+      title:
+        "Oxygen extraction fraction is differentially associated with pathological biomarkers in Alzheimer’s disease and non-Alzheimer’s dementias",
+      authors:"Misra, A., Wang, Y., Chiang, G., Cho, J.",
+      journal: "Front Neurosci",
+      status: "In Press",
+      url:"https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1754415/full"
+    },  
+    {
+      year: 2026,
+      title:
+        "Quantitative susceptibility mapping of the brain is associated with inflammatory changes in Alzheimer’s disease related areas",
+      authors:"Hosseini, S.A., Servaes, S., Macedo, A.C., Aumont, E., Rahmouni, N., Chan, T., Therriault, J., Trudel, L., Hall, B., Wang, Y., Goncalves, M.P., Socualaya, K.Q., Woo, M.S., Tissot, C., Oliva-Lopez, D., Li, J., Mitchell, S., Lebrun, A., Hopewell, R., Chawla, S., Fonov, V., Massarweh, G., Medina, Y.I., Soucy, J., Montembeault, M., Vitali, P., Blennow, K., Karikari, T., Benedet, A/, Shton N.J., Zettterberg, H., Pascoal, T.A., Gauthier, S., Klostranec, J., Zhuang, H., Cho, J., Collins, D.L., Wang, Y., Rudko, D.A., Rosa-Neto, P. ",
+      journal: "J Cereb Blood Flow Metab",
+      status: "In Press",
+      url:"https://journals.sagepub.com/doi/10.1177/0271678X261417193?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
+    },
+      {
+      year: 2026,
+      title:
+        "Remyelination and its association with increased oxygen extraction fraction in acute multiple sclerosis lesion",
+      authors:"Praveena, E., Ding, L., Nguyen, H., Zhang, S., Wang, Y., Gauthier S., Cho, J. ",
+      journal: "J Cereb Blood Flow Metab",
+      status: "In Press",
+      url: "https://journals.sagepub.com/doi/10.1177/0271678X261418928?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"
+    },
+    {
+      year: 2026,
+      title:
+        "Elevated cerebral oxygen extraction in Parkinson’s disease correlates with motor impairment severity",
+      authors:"Candan, H.E., Lee, D., Lee, H., Lee, J., Cho, J., Cho, H. ",
+      journal: "Sci Rep",
+      status: "In Press",
+      url:"https://www.nature.com/articles/s41598-026-36435-z"
+    },
+    {
+      year: 2025,
+      title:
+        "Evaluation of MRI-based brain oxygen extraction fraction mapping in patients with systemic lupus erythematosus",
+      authors:
+        "Zhang, S., Ma, J., Wu, S., Hu, Z., Yan, S., Cho, J., Wang, Y., Dong, L., Zhang, S., Zhu, W.",
+      journal: "Lupus Sci Med",
+      volume: "12",
+      pages: "e001522",
+      url:"https://lupus.bmj.com/content/12/1/e001522"
+    },
+    {
       year: 2025,
       title:
         "Reproducibility and sensitivity of quantitative susceptibility mapping for clinical research in deep gray matter",
       authors:
         "Salman, F., Ramesh, A., Jochmann, T., Prayer, M., Adegbemigun, A., Reeves, J.A., Wilding, G.E., Cho. J., Jakimovski, D., Bersland, N., Dwyer M.G., Zivadinov, R., and Schweser, F.",
-      journal: "Hum Brain Mapp",
-      status: "In Press",
-      url: null, // URL set to null for this publication
+      journal: "Human Brain Mapping",
+      volume: "46",
+      pages: "e70187",
+      url:"https://onlinelibrary.wiley.com/doi/10.1002/hbm.70187"
     },
     {
-      year: 2024,
+      year: 2025,
       title: "Oxygen extraction fraction in small vessel disease: relationship to disease burden and progression",
       authors:
         "Zhang, R., Lin, M., J. Cho, J., Jiaerken, Y., Wang, S., Hong, H., Guan, X., Zhang, Y., Xie, L., Liu, L., Cui, L., Zhang, M., Siero, J., and Huang, P.",
       journal: "Brain",
-      status: "In Press",
-      url: null, // URL set to null for this publication
+      volume: "148",
+      pages: "1950-1962",
+      url: "https://academic.oup.com/brain/article/148/6/1950/8125155?login=true"
     },
     {
-      year: 2024,
+      year: 2025,
       title:
         "Sensitivity assessment of QSM+qBOLD (or QQ) in detecting physiological changes in oxygen extraction fraction (OEF)",
       authors: "Elanghovan, P., Nguyen, T., Spincemaille, P., Gupta, A., Wang, Y., and Cho, J.",
       journal: "J Cereb Blood Flow Metab",
-      pages: "1-11",
+      volume: "45",
+      pages: "735-745",
       url: "https://journals.sagepub.com/doi/10.1177/0271678X241298584",
     },
     {
