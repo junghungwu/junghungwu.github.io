@@ -16,10 +16,10 @@ export default function TeachingPage() {
   const courses = [
     
     {
-      code: "@GWU, BME 6045",
+      code: "BME 6045",
       title: "Introduction to MRI",
       credits: 3,
-      semester: "Fall 2026",
+      semester: "Fall 2026 @GWU; Fall 2024, 2023, and 2022 @ SUNY Buffalo ",
       instructor: "Dr. Junghun Cho",
       prerequisites: "BME 4830",
       // description:
@@ -28,52 +28,16 @@ export default function TeachingPage() {
      location: "SEH 7040",
     },
     {
-      code: "@GWU, BME 4830",
+      code: "BME 4830",
       title: "Introduction to Medical Imaging Methods",
       credits: 3,
-      semester: "Spring 2026",
+      semester: "Spring 2026 @GWU; Spring 2024 @ SUNY Buffalo",
       instructor: "Dr. Junghun Cho",
       prerequisites: "BME 3820, ECE 3320",
       // description:
         // "Advanced course covering MRI physics, pulse sequences, and quantitative imaging methods. Focus on cutting-edge techniques including quantitative susceptibility mapping (QSM), diffusion tensor imaging, and oxygen extraction fraction mapping.",
       schedule: "Tues & Thurs, 3:45-5:00PM EST",
      location: "Tompkins 402",
-    },
-    {
-      code: "@SUNY Buffalo, BE 400/500",
-      title: "Introduction to Biophysics Modeling in MRI (Equivalent to BME 6045)",
-      credits: 3,
-      semester: "Fall 2024, 2023, and 2022",
-      instructor: "Dr. Junghun Cho",
-      prerequisites: "BE 460/560",
-      // description:
-        // "Advanced course covering MRI physics, pulse sequences, and quantitative imaging methods. Focus on cutting-edge techniques including quantitative susceptibility mapping (QSM), diffusion tensor imaging, and oxygen extraction fraction mapping.",
-      schedule: "Wed, 4:00-6:50PM EST",
-     location: "Bonner 414",
-    },
-     {
-      code: "@SUNY Buffalo, BE 304",
-      title: "Principles of Medical Imaging (Equivalent to BME 4830)",
-      credits: 3,
-      semester: "Spring 2024",
-      instructor: "Dr. Junghun Cho",
-      prerequisites: "MTH 241, PHY 101",
-      // description:
-        // "Advanced course covering MRI physics, pulse sequences, and quantitative imaging methods. Focus on cutting-edge techniques including quantitative susceptibility mapping (QSM), diffusion tensor imaging, and oxygen extraction fraction mapping.",
-      schedule: "Tues & Thurs, 3:30-4:50PM EST",
-     location: "NSC 205",
-    },
-    {
-      code: "@SUNY Buffalo, BE 500-SEM",
-      title: "Current Topics in Biomedical Engineering (Seminar)",
-      credits: 3,
-      semester: "Spring 2023",
-      instructor: "Dr. Junghun Cho",
-      prerequisites: "None",
-      // description:
-        // "Advanced course covering MRI physics, pulse sequences, and quantitative imaging methods. Focus on cutting-edge techniques including quantitative susceptibility mapping (QSM), diffusion tensor imaging, and oxygen extraction fraction mapping.",
-      schedule: "Wed, 10:00-10:50PM EST",
-     location: "Bonner 328",
     },
 
   ]

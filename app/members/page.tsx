@@ -16,8 +16,8 @@ export default function MembersPage() {
         url: "https://scholar.google.com/citations?hl=en&tzom=300&user=uoqM6JEAAAAJ&inst=17395704991083290304",
       },
       {
-        label: "CV (April 2026)",
-        url: "/images/Junghun_Cho_CV_0428_2026.pdf",
+        label: "CV (May 2026)",
+        url: "/images/Junghun_Cho_CV_0518_2026.pdf",
       },
     ],
   }

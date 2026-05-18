@@ -22,6 +22,7 @@ const navItems = [
   { href: "/publications/", label: "Publications" },
   { href: "/members/", label: "Members" },
   { href: "/teaching/", label: "Teaching" },
+  { href: "/software/", label: "Software" },
 ];
 
 export default function Navigation() {

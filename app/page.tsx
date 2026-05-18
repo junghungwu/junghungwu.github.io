@@ -5,6 +5,14 @@ import { Calendar, Award, BookOpen } from "lucide-react"
 
 export default function HomePage() {
   const recentNews = [
+      {
+      date: "2026-05-13",
+      monthYear: "May 2026",
+      type: "Award",
+      title: "ISMRM 2026 Awards",
+      description:
+        "Liukailai Ding and Tian Qiu received two Summa Cum Laude Merit Awards at the 2026 International Society of Magnetic Resonance in Medicine (ISMRM).",
+    },
     {
       date: "2025-09-01",
       monthYear: "September 2025",
@@ -13,7 +21,14 @@ export default function HomePage() {
       description:
         "Our lab relocated to George Washington University and officially began operations.",
     },
-    
+    {
+      date: "2025-05-13",
+      monthYear: "May 2025",
+      type: "Award",
+      title: "ISMRM 2025 Awards",
+      description:
+        "Renlong Yang received a Magna Cum Laude Merit Award at the 2025 International Society of Magnetic Resonance in Medicine (ISMRM).",
+    },
     {
       date: "2024-04-01",
       monthYear: "April 2024",
