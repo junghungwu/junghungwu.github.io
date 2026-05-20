@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Code, Download } from "lucide-react"
+import React from "react"
 
 export default function SoftwarePage() {
   const contactEmail = "junghunc@gwu.edu"
@@ -10,8 +11,10 @@ export default function SoftwarePage() {
       name: "QQ-CCTV",
       status: "Available",
       language: "Linux Executable",
-      description:
-        "A machine learning algorithm (CCTV; temporal Clustering, tissue Composition, and Total Variation) for OEF mapping that substantially improves effective signal-to-noise ratio (SNR) by clustering voxels with similar MRI signal patterns. CCTV enables robust OEF quantification and has been shown to detect OEF abnormalities in neurologic disorders.If you use this executable, please cite references listed in Papers section below.",
+      description: [
+        "A machine learning algorithm (CCTV; temporal Clustering, tissue Composition, and Total Variation) for OEF mapping that substantially improves effective signal-to-noise ratio (SNR) by clustering voxels with similar MRI signal patterns. CCTV enables robust OEF quantification and has been shown to detect OEF abnormalities in neurologic disorders.",
+        <><strong>Implementation: </strong>You can download the QQ-CCTV executable for two input formats: Dicom and NIfTTI. After downloding, please follow the instructions in Readme.txt. If you use this executable, please cite references listed in Papers section below.</>,
+      ],
       papers: [
         {
           label: "QQ",
@@ -32,8 +35,10 @@ export default function SoftwarePage() {
       name: "QQ-NET",
       status: "Available",
       language: "Python",
-      description:
-        "A deep learning-based OEF mapping tool (NET) built on the QQ biophysics model. Using a U-Net architecture, QQ-NET achieves accurate OEF estimation with reconstruction speeds approximately 150 times faster than conventional optimization approaches, enabling practical deployment in both research and clinical settings. Please note that QQ-NET must be re-trained if the test TE sets differ from the training TE set used in the QQ-NET paper. Please contact junghunc@gwu.edu for detailed implementation information. If you use this code, please cite references listed in Papers section below. To run the code, download all the files into a folder, make sure all the libraries listed in codes/basics/unet3d_b_limit_p.py exist, and run /codes/QQ_NET_test_simul.ipynb. QQ-NET result will be saved /result/SNR100_NET_p5_trial*_overlap30.mat. To plot results in MATLAB, run /result/see_simul_horizontal.m",
+      description:[
+        "A deep learning-based OEF mapping tool (NET) built on the QQ biophysics model. Using a U-Net architecture, QQ-NET achieves accurate OEF estimation with reconstruction speeds approximately 150 times faster than conventional optimization approaches, enabling practical deployment in both research and clinical settings.",
+        <><strong>Implementation: </strong>To run the code, download all the files into a folder, make sure all the libraries listed in codes/basics/unet3d_b_limit_p.py exist, and run /codes/QQ_NET_test_simul.ipynb. QQ-NET result will be saved /result/SNR100_NET_p5_trial*_overlap30.mat. To plot results in MATLAB, run /result/see_simul_horizontal.m. Please note that QQ-NET must be re-trained if the test TE sets differ from the training TE set used in the QQ-NET paper. If you use this code, please cite references listed in Papers section below.</>,
+    ],
       papers: [
         {
           label: "QQ",
@@ -87,7 +92,13 @@ export default function SoftwarePage() {
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-foreground leading-relaxed font-sans">{tool.description}</p>
+                <div className="text-foreground leading-relaxed font-sans">
+  {tool.description.map((paragraph, index) => (
+    <p key={index} className="mb-4">
+      {paragraph}
+    </p>
+  ))}
+</div>
 
                 <div className="space-y-2 text-sm">
                   <div className="flex items-start text-foreground gap-2">
